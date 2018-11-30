@@ -18,6 +18,7 @@ Route::get('/', function () {
 Route :: resource ('sistema/categoria', 'IngresoController');
 Route :: resource ('sistema/ingreso2', 'Ingreso2Controller');
 Route :: resource ('sistema/ingreso3', 'Ingreso3Controller');
+Route :: resource ('sistema/ingreso4', 'Ingreso4Controller');
 Route :: resource ('seguridad/usuario', 'UsuarioController');
 
 

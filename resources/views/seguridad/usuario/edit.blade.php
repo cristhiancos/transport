@@ -73,6 +73,7 @@
 											<option value="sin oficina">Sin oficina </option>
 											<option value="1">Oficina 1</option>
       								<option value="2">Oficina 2 </option>
+											<option value="3">Oficina 3 </option>
 
 											</select>
 										@if ($errors->has('ofina'))
@@ -131,7 +132,7 @@
 	</div>
 @else
 	<div class="alert alert-danger" role="alert">
-	<h3>Usted no cuenta con los permisos necesarios para realizar esta operaci®Æn</h3>
+	<h3>Usted no cuenta con los permisos necesarios para realizar esta operaci√≥n</h3>
 	</div>
 	<a class="btn btn-danger" href="/seguridad/usuario" role="button">Volver</a>
 

@@ -63,7 +63,7 @@
 								</div>
 						</div>
 						<div class="form-group{{ $errors->has('oficina') ? ' has-error' : '' }}">
-								<label for="oficina" class="col-md-12 control-label">Seleccion a la oficina que pertenece</label>
+								<label for="oficina" class="col-md-12 control-label">Seleccionar la oficina a que pertenece</label>
 
 								<div class="col-md-12">
 
@@ -72,6 +72,7 @@
 											<option value="sin oficina">Sin oficina </option>
 											<option value="1">Oficina 1</option>
       								<option value="2">Oficina 2 </option>
+											<option value="3">Oficina 3 </option>
 
 											</select>
 										@if ($errors->has('ofina'))

@@ -31,11 +31,14 @@ class AuthController extends Controller
      */
        protected function redirectPath(){
      $user = Auth::user();
-     if ($user->name=="oficina1") {
+     if ($user->oficina=="1") {
        return '/sistema/categoria';
      }
      elseif ($user->name=="administrador") {
        return '/seguridad/usuario';
+     }
+     elseif ($user->oficina=="3") {
+       return '/sistema/ingreso4';
      }
      else {
        return '/sistema/ingreso3';
